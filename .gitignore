@@ -1,0 +1,43 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Log/OS files
+*.log
+.DS_Store
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Specific .idea configs (if needed, but usually safe to ignore all of .idea)
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+
+# App bundles / APKs
+*.aab
+*.apk
+
+# Keystore files (never push signing keys!)
+*.jks
+*.keystore
+
+# Google Services (API / Firebase keys)
+google-services.json
+
+# Android Profiling
+*.hprof

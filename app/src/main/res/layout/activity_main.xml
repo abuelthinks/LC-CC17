@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learning Contract"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <!-- Expectations -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expectations:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333 "
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. To learn effectively\n2. To understand key concepts\n3. To complete tasks on time\n4. To engage in discussions\n5. To improve problem-solving skills"
+            android:paddingBottom="16dp"
+            android:paddingStart="12dp"
+            android:textSize="16sp"
+            android:textColor="#333333 "/>
+
+        <!-- Motivation -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivation:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333 "
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Desire to succeed\n2. Interest in learning\n3. Career goals\n4. Personal growth\n5. Future opportunities"
+            android:paddingBottom="16dp"
+            android:paddingStart="12dp"
+            android:textSize="16sp"
+            android:textColor="#333333 "/>
+
+        <!-- Contribution -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contribution:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333 "
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Active participation\n2. Sharing knowledge\n3. Supporting peers\n4. Completing tasks responsibly\n5. Respecting deadlines"
+            android:paddingBottom="16dp"
+            android:paddingStart="12dp"
+            android:textSize="16sp"
+            android:textColor="#333333 "/>
+
+        <!-- Hindrances -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hindrances:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333 "
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Procrastination\n2. Lack of focus\n3. Distractions\n4. Poor time management\n5. Stress or fatigue"
+            android:paddingBottom="24dp"
+            android:paddingStart="12dp"
+            android:textSize="16sp"
+            android:textColor="#333333 "/>
+
+        <!-- Signature -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signed by:\nBayangan, Abuel A.\nYourName\nYourName\nYourName"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:paddingTop="16dp"
+            android:paddingBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>
