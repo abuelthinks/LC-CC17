@@ -101,7 +101,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Signed by:\nBayangan, Abuel A.\nYourName\nYourName\nYourName"
+            android:text="Signed by:\nBanizal, Vince Bryant E.\nBayangan, Abuel A.\nJovero, Kristan Karl C. \nLiwag, Roel\nOka, Masaki"
             android:textStyle="italic"
             android:gravity="center"
             android:textSize="16sp"
